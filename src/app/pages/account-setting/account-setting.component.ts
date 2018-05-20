@@ -23,7 +23,7 @@ export class AccountSettingComponent implements OnInit {
   aplicarCheck(link: any) {
     let selectores: any = document.getElementsByClassName('selector');
     for (let ref of selectores) {
-      ref.classList.remove('working');
+    ref.classList.remove('working');
     }
     link.classList.add('working');
   }

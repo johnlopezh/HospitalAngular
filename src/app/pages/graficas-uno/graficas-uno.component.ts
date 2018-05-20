@@ -35,11 +35,9 @@ export class GraficasUnoComponent implements OnInit {
     },
   };
   constructor() {
-    console.log(this. graficos.grafico1.data);
   }
 
   ngOnInit() {
-    console.log(this. graficos.grafico1.data);
   }
 
 }
